@@ -5,6 +5,15 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ex44" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ex44" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/exercise41" />
         <option name="modules">
           <set>
@@ -27,6 +36,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/exercise43" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise43/exercise44" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/exercise43/exercise44" />
           </set>
         </option>
       </GradleProjectSettings>
