@@ -58,6 +58,7 @@ public class solution43 {
                 skeleton.close();
                 System.out.println("Created" + path + "\\index.html");
 
+                //javaScript pathing
                 File javascriptFolder = new File(path + "\\js");
                 boolean javascriptCreated = javascriptFolder.mkdir();
                 if (javascriptCreated) {
@@ -67,9 +68,10 @@ public class solution43 {
                 }
             } catch (IOException e) {
                 e.printStackTrace();
-            } finally {
+            } finally { //cleaning up
 
             }
+            //CSS pathing
             if(CSS == 'y' || CSS == 'Y')
             {
                 File cssFolder = new File(path+"\\css");
@@ -77,15 +79,14 @@ public class solution43 {
                 if(cssCreated)
                 {
                     System.out.println("Created " + cssFolder+"\\");
-                }
-                else
+                } else
                 {
                     System.out.println("CSS folder not created!!");
                 }
             }
         }
 
-            }
-        }
+    }
+}
 
 
