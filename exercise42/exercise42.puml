@@ -1,0 +1,8 @@
+@startuml
+class baseline.solution42 {
++ {static} void main(String[])
+}
+class baseline.Employees {
++ void Details(String)
+}
+@enduml
