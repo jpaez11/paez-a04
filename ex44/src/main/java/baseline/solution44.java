@@ -15,8 +15,8 @@ Copyright 2021 Jorge Paez
 package baseline;
 import java.io.*;
 import java.util.*;
-import org.json.simple.*;
-import org.json.simple.parser.*;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class solution44 {
     public static void main(String[] args) {
