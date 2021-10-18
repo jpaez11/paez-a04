@@ -1,0 +1,11 @@
+@startuml
+class baseline.solution41 {
++ {static} void main(String[])
+- {static} void outputN(ArrayList<String>)
+- {static} void readN(Scanner,ArrayList<String>)
+}
+class baseline.SortingNames {
++ {static} void readN(Scanner,ArrayList<String>)
++ {static} void outputN(ArrayList<String>)
+}
+@enduml
