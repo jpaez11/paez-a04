@@ -1,0 +1,5 @@
+@startuml
+class baseline.solution43 {
++ {static} void main(String[])
+}
+@enduml
